@@ -1,4 +1,4 @@
-function tinhTong(a, b) {
+function Sum(a, b) {
   let tong = a + b;
   return tong;
 }
@@ -6,5 +6,5 @@ function tinhTong(a, b) {
 let a = 10;
 let b = 20;
 
-let ketQua = tinhTong(a, b);
+let ketQua = Sum(a, b);
 console.log("Tổng của " + a + " và " + b + " là: " + ketQua);
